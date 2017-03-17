@@ -26,5 +26,5 @@ var routes = require("./controllers/burgerController.js");
 app.use("/", routes);
 
 app.listen(port, function(){
-	console.log("Friend Finder app listening on PORT: "+ port);
+	console.log("Burger app listening on PORT: "+ port);
 });
